@@ -2,7 +2,7 @@
 .disease-prediction-title {
   font-size: 1.3em;
   font-weight: 600;
-  color: var(--color-primary);
+  color: rgba(var(--color-brown-600-rgb), 0.25);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -790,9 +790,9 @@ select.form-control {
 /* END PERPLEXITY DESIGN SYSTEM */
 /* Additional agricultural theme variables */
 :root {
-  --color-agriculture-primary: #22c55e;
-  --color-agriculture-secondary: #16a34a;
-  --color-agriculture-accent: #65a30d;
+  --color-agriculture-primary: #1dbeab;
+  --color-agriculture-secondary: #90eab196;
+  --color-agriculture-accent: #232a18;
   --color-agriculture-light: #dcfce7;
   --color-agriculture-dark: #166534;
   --gradient-agriculture: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
@@ -802,7 +802,7 @@ select.form-control {
 
 /* Base styles */
 body {
-  font-family: var(--font-family-base);
+  font-family: z
   line-height: var(--line-height-normal);
   color: var(--color-text);
   background: var(--color-background);
