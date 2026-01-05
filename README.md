@@ -1,127 +1,147 @@
-<div align="center">
-  <img src="https://img.icons8.com/color/96/000000/plant-under-sun.png" alt="AgroSmart Logo" width="80"/>
-  <h1>AgroSmart</h1>
-  <p><b>AI-powered Smart Agriculture Platform</b></p>
-  <p>Crop recommendation, disease detection, weather insights, and market intelligence in one beautiful app.</p>
-</div>
+# 🌱 FARMLYTICS – AI Crop Recommendation System
+
+FARMLYTICS is an AI-powered agriculture advisory system designed to help farmers and agri-professionals make informed crop selection decisions based on soil and environmental parameters.  
+This project is adapted and enhanced from an AI Crop Advisor base and redesigned with a modern, user-friendly frontend.
 
 ---
 
 ## 🚀 Features
 
-- **AI Crop Recommendation:** Get personalized crop suggestions based on soil and climate data.
-- **Plant Disease Detection:** Upload leaf images and detect diseases using deep learning.
-- **Weather Dashboard:** Real-time weather and 7-day forecasts for major Indian cities.
-- **Market Prices:** View current crop prices and trends from top markets.
-- **Beautiful UI:** Modern, responsive design for desktop and mobile.
+- 🌾 **AI Crop Recommendation**
+  - Predicts the most suitable crop based on:
+    - Nitrogen (N)
+    - Phosphorus (P)
+    - Potassium (K)
+    - Temperature
+    - Humidity
+    - Soil pH
+    - Rainfall
 
----
+- 🎨 **Modern & Clean Frontend**
+  - Farmer-friendly UI
+  - Responsive design
+  - Clean green agriculture theme
 
-## 🗂️ Project Structure
+- 🧠 **Machine Learning Backend**
+  - Trained ML model for crop prediction
+  - Python-based backend (Flask)
 
-```
-Sunflower Project/
-├── backend/           # Flask backend (API endpoints)
-├── frontend/          # HTML, CSS, JS (UI)
-├── data_ml/           # ML models, notebooks, datasets
-│   ├── models/        # Trained model files (.pth, .pkl, .json)
-│   └── notebooks/     # Jupyter notebooks for training
-├── crop_information.csv
-├── crop_recommendation_dataset.csv
-├── market_prices.csv
-├── weather_forecast.csv
-├── requirements.txt   # Python dependencies
-└── README.md          # Project documentation
-```
-
----
-
-## ⚡ Quick Start
-
-1. **Clone the repo:**
-
-   ```bash
-   git clone https://github.com/Tejeswar001/Sunflower-Project.git
-   cd Sunflower-Project
-   ```
-
-2. **Install Python dependencies:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Flask backend:**
-
-   ```bash
-   cd backend
-   python app.py
-   ```
-
-4. **Open `index.html` in your browser** (or use a local server for full functionality).
-
----
-
-## 🧠 Machine Learning
-
-- **Crop Recommendation:** Trained with scikit-learn on soil and climate features.
-- **Disease Detection:** MobileNetV3 deep learning model, trained on Kaggle's New Plant Diseases Dataset.
-- **Class Labels:** See `data_ml/models/class_labels.json` for all supported diseases.
-
----
-
-## 🌐 APIs Used
-
-- **Open-Meteo API** ([open-meteo.com](https://open-meteo.com/)) — Free weather forecast API for real-time and 7-day weather data.
-- **Nominatim Geocoding API** ([nominatim.org](https://nominatim.org/)) — Free geocoding service to convert city names to latitude/longitude.
-- **Agmarknet (Govt. of India)** ([agmarknet.gov.in](https://agmarknet.gov.in/)) — Official crop price data (used for sample/extension, not direct API).
-
----
-
-## 🌦️ Weather & Market Data
-
-- **Weather:** Powered by Open-Meteo API and Nominatim geocoding.
-- **Market Prices:** Sample data included; can be extended with real-time sources.
-
----
-
-## 📁 Notebooks & Datasets
-
-- Jupyter notebooks for model training and evaluation in `data_ml/notebooks/`
-- Datasets and model files in `data_ml/models/`
-
----
-
-## 🖥️ Frontend
-
-- Responsive UI with modern design
-- Crop advisor, weather dashboard, disease detection, and market analytics
-- Easy navigation and mobile support
+- 🔗 **Frontend–Backend Integration**
+  - API-based prediction workflow
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python, Flask
-- scikit-learn, PyTorch, torchvision
-- HTML, CSS, JavaScript
-- Chart.js for analytics
+### Frontend
+- HTML5  
+- CSS3  
+- JavaScript  
+
+### Backend
+- Python  
+- Flask  
+- Scikit-learn  
+- Pandas  
+- NumPy  
 
 ---
 
-## 📚 Documentation
+## 📂 Project Structure
 
-- All endpoints and features are documented in code comments and this README.
-- For ML details, see the Jupyter notebooks in `data_ml/notebooks/`.
+```
+
+FARMLYTICS/
+│
+├── backend/
+│   ├── app.py
+│   ├── model.pkl
+│   ├── requirements.txt
+│   └── ...
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── disease.html
+│
+└── README.md
+
+````
 
 ---
 
-## 🤝 Contributing
+## ⚙️ Installation & Setup
 
-Pull requests and suggestions are welcome! Please open an issue for major changes.
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/AshleshaVerma23/FARMLYTICS.git
+cd FARMLYTICS
+````
+
+---
+
+### 2️⃣ Backend Setup
+
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python app.py
+```
+
+Backend will start on:
+
+```
+http://127.0.0.1:5000
+```
+
+---
+
+### 3️⃣ Frontend Setup
+
+Open `frontend/index.html` directly in your browser
+(or use Live Server in VS Code).
+
+---
+
+## 📸 Screenshots
+
+> *(Add screenshots of your UI here for better presentation)*
+
+---
+
+## 🎯 Use Case
+
+* Smart agriculture systems
+* Crop planning support
+* Academic & internship projects
+* AI/ML demonstration in agriculture domain
+
+---
+
+## 📌 Future Enhancements
+
+* 🌦️ Weather API integration
+* 📊 Crop yield prediction
+* 🧾 Farmer dashboard
+* ☁️ Cloud deployment
+
+---
+
+## 👩‍💻 Author
+
+**Ashlesha Verma**
+GitHub: [AshleshaVerma23](https://github.com/AshleshaVerma23)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License
+This project is for educational and learning purposes.
+
+````
+
+---
+
