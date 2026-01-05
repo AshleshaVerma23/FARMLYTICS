@@ -105,12 +105,17 @@ Open `frontend/index.html` directly in your browser
 (or use Live Server in VS Code).
 
 ---
-
 ## 📸 Screenshots
 
-> *(Add screenshots of your UI here for better presentation)*
+### Home – Crop Recommendation
+![Home Page](screenshots/home.png)
 
----
+### Prediction Result
+![Prediction Result](screenshots/prediction.png)
+
+### Disease Detection
+![Disease Detection](screenshots/disease.png)
+
 
 ## 🎯 Use Case
 
@@ -140,8 +145,3 @@ GitHub: [AshleshaVerma23](https://github.com/AshleshaVerma23)
 ## 📄 License
 
 This project is for educational and learning purposes.
-
-````
-
----
-
